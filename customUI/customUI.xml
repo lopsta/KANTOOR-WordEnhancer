@@ -1,0 +1,39 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+	<ribbon>
+		<tabs>
+			<tab id="lopsta1" label="lopstaKANTOOR">
+				
+				<group id="lopstaId100" label="Speichern">
+					
+					<button
+						id="lopstaButton101"
+						label="Speichern"
+						size="large"
+						image="lopstaIconSave"
+						onAction="lopstaButtonCallback_onClick"
+						/>
+
+				</group>
+				
+				<group id="lopstaId200" label="Anpassen">
+					
+					<button 
+						id="lopstaButton201"
+						label="Männliche Form"
+						image="lopstaIconTextMale"
+						onAction="lopstaButtonCallback_onClick"
+						/>
+
+					<button 
+						id="lopstaButton202"
+						label="Weibliche Form"
+						image="lopstaIconTextFemale"
+						onAction="lopstaButtonCallback_onClick"
+						/>
+
+				</group>
+
+			</tab>
+		</tabs>
+	</ribbon>
+ </customUI> 

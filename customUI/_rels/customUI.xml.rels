@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+		
+		<Relationship 
+			Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+			Target="images/lopstaIconSave.png" 
+			Id="lopstaIconSave" />
+		
+		<Relationship 
+			Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" 
+			Target="images/lopstaIconTextFemale.png" 
+			Id="lopstaIconTextFemale" />
+		
+		<Relationship
+			Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" 
+			Target="images/lopstaIconTextMale.png" 
+			Id="lopstaIconTextMale" />
+		
+		</Relationships>

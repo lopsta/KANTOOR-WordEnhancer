@@ -1,4 +1,4 @@
-Copyright (c) 2021
+# Copyright (c) 2021
 
 Nils Kassebohm
 Rechtsanwalt und Fachanwalt für Strafrecht
@@ -12,7 +12,7 @@ DIE SOFTWARE WIRD OHNE MÄNGELGEWÄHR UND OHNE JEGLICHE AUSDRÜCKLICHE ODER STIL
 
 ---
 
-Verwendung:
+# Verwendung:
 
 Das WORD-VBA-Modul dient dazu, Textinhalte vereinfacht an eine männliche oder weibliche Formulierung anzupassen.
 
@@ -52,3 +52,47 @@ Damit die Stelle im text erkannt und geändert werden kann, muss sie markiert un
     Gender001
 
 gespeichert werden.
+
+# Ausprobieren - Testen
+
+### Datei nach AppData kopieren
+Um den lopstaKANTOOR[WordEnhancer] auszuprobieren und zu test, kopieren Sie bitte die Datei
+
+    lopstaKANTOOR[WordEnhancer]beta_v0-0-2.dotm
+
+in Ihr Verzeichnis
+
+    c:\Users\<IhrUserName>\AppData\Roaming\Microsoft\Word\STARTUP
+
+Der »AppData« Ordner wird von Windows standardmäßig dem Benutzer nicht angezeigt. Ggfls. müssen Sie die Anzeige versteckter Ordner und Dateien erst einschalten. Zu Ihrem »AppData« Ordner gelangen Sie jedoch sehr einfach.
+
+Drücken Sie die Tastenkombination [Windows]+[R] und geben Sie %appdata% ein und bestätigen mit der Entertaste. Oder Sie geben den Suchbegriff einfach in das Suchfeld von Windows 10 ein. Danach navigieren Sie im Ordner »Roaming« über den Ordner »Microsoft« zum Ordner »Word«. Ist dort noch kein Ordner »STARTUP« vorhanden, erstellen Sie ihn bitte.
+
+Sie können auch eine Verknüpfung erstellen und anstelle der Datei in den Ordner »c:\Users\<IhrUserName>\AppData\Roaming\Microsoft\Word\STARTUP« verschieben.
+
+### Word starten
+Danach starten Sie Ihr Word Programm. Nach dem Start erscheint in der Ribbon-Auswahl (Menü oben) ein neuer Eintrag »lopstaKANTOOR«. Dort finden Sie die Button mit den hinzugefügten lopsta Funktionen.
+
+### Briefbogen öffnen
+Doppelklicken Sie auf die Datei
+
+    musterBriefbogen.dotx
+
+um ein neues Dokument mit der Wordvorlage »musterBriefbogen.dotx« zu erstellen.
+
+### Mustertext einfügen
+Wählen Sie den im Ribbon den Reiter »Einfügen«. Dort finden Sie einen Auswahlbutton »Objekt«. Wählen Sie »Text aus Datei« und fügen Sie bitte die Datei
+
+    MusterTextbaustein.dotx
+
+ein. Im Text sehen Sie nun Einfügungen wie z.B. «mein Mandant|meine Mandantin».
+
+### Form an männliche oder weibliche Formulierung anpassen
+Um den Text an die gewünschte männlich oder weibliche Form anzupassen, wählen Sie im Ribbon den Reiter »lopstaKANTOOR« und dort im Feld »Anpassen« den auf die gewünschte Form zutreffenden Button. Nach dem Klick erscheint im Text nur noch die männliche oder die weibliche Form. Haben Sie versehentlich den falschen Button geklickt, klicken Sie einfach erneut auf den Button der richtigen Form und der Text wird erneut angepasst.
+
+Ich wünsche Ihnen gutes Gelingen und hoffe, dass Sie Gefallen an meiner Programmierung haben.
+
+Ihr
+Nils Kassebohm
+Rechtsanwalt
+Fachanwalt für Strafrecht
